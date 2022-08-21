@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/academia
+    url: jdbc:postgresql://localhost:5432/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
     username: postgres
     password: 123
     hikari:
@@ -10,7 +10,8 @@ spring:
 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQL10Dialect
-    hibernate: ddl-auto=none
+    hibernate:
+      ddl-auto: update
     properties:
       hibernate:
         jdbc:

@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9a7b281-4d6f-4c8e-be52-d45d4848e3cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/AvaliacaoFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/Matricula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/controllers/AlunoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/form/AlunoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/form/AlunoUpdateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/repositories/IAlunoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/services/impl/AlunoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/AvaliacaoFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/AvaliacaoFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/Matricula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/academia/entities/Matricula.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,13 +34,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -61,6 +68,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.youssfbr.academia.repositories" />
+      <recent name="com.github.youssfbr.academia.services.impl" />
       <recent name="com.github.youssfbr.academia.entities" />
     </key>
   </component>
